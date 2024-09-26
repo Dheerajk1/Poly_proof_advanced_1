@@ -1,1 +1,29 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@maticnetwork/meta": "^2.4.54",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "erc721a": "^4.2.3",
+    "ethereum-waffle": "3.4.4",
+    "ethers": "5.7.2"
+  },
+  "version": "1.0.0",
+  "description": "Polygon-Advanced-Module-1 This is the first project in Polygon-Advance, in this project, I was tasked to deploy an NFT collection on the Ethereum blockchain, Map the collection to Polygon, and Transfer assets over via the Polygon Bridge.",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
 
